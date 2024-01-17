@@ -13,4 +13,6 @@ Fine-Tuning: Feel free to adjust your assumptions and see how they impact the re
 
 Possible Improvements :-
 
-I can add a way to store all the inputs, until the user decides to delete it, that way they can make changes to the existing numbers, and that can be the Fine-Tuning method
+I can add a way to store all the inputs, until the user decides to delete it, that way they can make changes to the existing numbers, and that can be the Fine-Tuning method.
+
+And maybe some way to handle invalid Entries.
