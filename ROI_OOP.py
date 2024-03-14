@@ -69,7 +69,7 @@ class ROI_calculator():
                 self.total_investment = self.investment_info()
             elif user_input == "run analysis":
                 self.roi_generator()
-            elif user_input == "Quit":
+            elif user_input == "quit":
                 break
             else:
                 print("Invalid Entry")

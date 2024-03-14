@@ -11,7 +11,7 @@ Analysis: Once you've input all the necessary data, the calculator generates a c
 Fine-Tuning: Feel free to adjust your assumptions and see how they impact the results. For instance, you can experiment with different rent values, vacancy rates, or financing options to evaluate various scenarios.
 
 
-Possible Improvements :-
+Changes in progress:-
 
 I can add a way to store all the inputs, until the user decides to delete it, that way they can make changes to the existing numbers, and that can be the Fine-Tuning method.
 
