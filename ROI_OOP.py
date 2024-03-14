@@ -14,6 +14,7 @@ class ROI_calculator():
         self.total_monthly_income = total_monthly_income
         self.total_monthly_expenses = total_monthly_expenses
         self.total_investment = total_investment
+        self.current_property = {}
     
     def total_income(self):
         rental_income = float(input("Enter the rent amount:"))
@@ -49,17 +50,24 @@ class ROI_calculator():
         annual_cash_flow = monthly_cash_flow * 12
         roi = annual_cash_flow / self.total_investment * 100
         print(f"Return on Investment (ROI): {roi}%")
+
+    def fine_tuning(self):
+        #display the Dictionary with all the entries
+        # get an user input of if they want to make a change to a specific number.
+        #create a method to make the changes # then confirm if the changes are final 
+        # run roi_generator() again.
+        return
     
     def runner(self):
         while True:
-            user_input = input("Select an Option: Enter Income/Enter Expenses/Enter Investment/Run Analysis/Quit: ")
-            if user_input == "Enter Income":
+            user_input = input("Select an Option: Enter Income/Enter Expenses/Enter Investment/Run Analysis/Quit: ").lower()
+            if user_input == "enter income":
                 self.total_monthly_income = self.total_income()
-            elif user_input == "Enter Expenses":
+            elif user_input == "enter expenses":
                 self.total_monthly_expenses = self.expenses()
-            elif user_input == "Enter Investment":
+            elif user_input == "enter investment":
                 self.total_investment = self.investment_info()
-            elif user_input == "Run Analysis":
+            elif user_input == "run analysis":
                 self.roi_generator()
             elif user_input == "Quit":
                 break
